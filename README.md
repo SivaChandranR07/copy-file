@@ -22,6 +22,11 @@ Print the output.
 
 ## PROGRAM:
 ```python
+'''
+Program for copying the contents from one file to another file.
+Developed by: Siva Chandran R
+#RegisterNumber:22005531
+'''
 with open("git.txt","r") as f1:
     with open("MyFile.txt","a") as f2:
         for line in f1:
